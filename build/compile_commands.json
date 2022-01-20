@@ -1,0 +1,79 @@
+[
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dwv_basic_roi_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-basic-roi.dir/module/roi/basic_roi.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/module/roi/basic_roi.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/module/roi/basic_roi.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DCONFIG_FILE_PATH=\\\"/home/ma/workspace/gitspace/backup/WolfVision/configs\\\" -Dwv_onnx_inferring_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-onnx-inferring.dir/module/ml/onnx_inferring.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/module/ml/onnx_inferring.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/module/ml/onnx_inferring.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DCONFIG_FILE_PATH=\\\"/home/ma/workspace/gitspace/backup/WolfVision/configs\\\" -Dwv_video_record_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-video-record.dir/module/record/record.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/module/record/record.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/module/record/record.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dwv_basic_kalman_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-basic-kalman.dir/module/filter/basic_kalman.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/module/filter/basic_kalman.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/module/filter/basic_kalman.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DCONFIG_FILE_PATH=\\\"/home/ma/workspace/gitspace/backup/WolfVision/configs\\\" -DFMT_LOCALE -DSOURCE_PATH=\\\"/home/ma/workspace/gitspace/backup/WolfVision\\\" -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -flto -fno-fat-lto-objects   -DDEBUG -pthread -std=gnu++14 -o CMakeFiles/WolfVision.dir/base/wolfvision.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/base/wolfvision.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/base/wolfvision.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dwv_fan_armor_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-fan-armor.dir/module/armor/fan_armor.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/module/armor/fan_armor.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/module/armor/fan_armor.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dwv_basic_armor_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-basic-armor.dir/module/armor/basic_armor.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/module/armor/basic_armor.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/module/armor/basic_armor.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DCONFIG_FILE_PATH=\\\"/home/ma/workspace/gitspace/backup/WolfVision/configs\\\" -Dwv_basic_buff_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-basic-buff.dir/module/buff/basic_buff.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/module/buff/basic_buff.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/module/buff/basic_buff.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dwv_basic_pnp_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-basic-pnp.dir/module/angle_solve/basic_pnp.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/module/angle_solve/basic_pnp.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/module/angle_solve/basic_pnp.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dwv_uart_serial_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-uart-serial.dir/devices/serial/uart_serial.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/devices/serial/uart_serial.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/devices/serial/uart_serial.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dwv_mv_video_capture_EXPORTS -I../3rdparty/fmt/include -I../3rdparty/mindvision/linux/include -I../ -I../base -I../devices -I../devices/camera -I../devices/serial -I../module -I../module/angle_solve -I../module/armor -I../module/buff -I../module/filter -I../module/record -I../module/ml -I../module/roi -I../utils -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g -fPIC   -DDEBUG -std=gnu++14 -o CMakeFiles/wv-mv-video-capture.dir/devices/camera/mv_video_capture.cpp.o -c /home/ma/workspace/gitspace/backup/WolfVision/devices/camera/mv_video_capture.cpp",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/devices/camera/mv_video_capture.cpp"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFMT_LOCALE -I../3rdparty/fmt/include -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g   -DDEBUG -std=gnu++14 -o 3rdparty/fmt/CMakeFiles/fmt.dir/src/format.cc.o -c /home/ma/workspace/gitspace/backup/WolfVision/3rdparty/fmt/src/format.cc",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/3rdparty/fmt/src/format.cc"
+},
+
+{
+  "directory": "/home/ma/workspace/gitspace/backup/WolfVision/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DFMT_LOCALE -I../3rdparty/fmt/include -isystem /usr/local/include/opencv4  -Wall -Wextra -Wno-deprecated -g   -DDEBUG -std=gnu++14 -o 3rdparty/fmt/CMakeFiles/fmt.dir/src/os.cc.o -c /home/ma/workspace/gitspace/backup/WolfVision/3rdparty/fmt/src/os.cc",
+  "file": "/home/ma/workspace/gitspace/backup/WolfVision/3rdparty/fmt/src/os.cc"
+}
+]

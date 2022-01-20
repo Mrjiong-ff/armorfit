@@ -1,0 +1,190 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "3rdparty/fmt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rdparty/fmt",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WolfVision",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "WolfVision::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WolfVision-Debug-c25a94c8ce602a166761.json",
+					"name" : "WolfVision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fmt::@99b488b5ce7e6b2029cf",
+					"jsonFile" : "target-fmt-Debug-452deb109e484386717b.json",
+					"name" : "fmt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-basic-armor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-basic-armor-Debug-513d07bac03d3f790b19.json",
+					"name" : "wv-basic-armor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-basic-buff::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-basic-buff-Debug-9eac8ce8ec8022ecf79e.json",
+					"name" : "wv-basic-buff",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-basic-kalman::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-basic-kalman-Debug-00c008bd543867a135d7.json",
+					"name" : "wv-basic-kalman",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-basic-pnp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-basic-pnp-Debug-f177869890956f175026.json",
+					"name" : "wv-basic-pnp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-basic-roi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-basic-roi-Debug-2e7916a210811f98086f.json",
+					"name" : "wv-basic-roi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-fan-armor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-fan-armor-Debug-20be3feec990e2b334c2.json",
+					"name" : "wv-fan-armor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-mv-video-capture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-mv-video-capture-Debug-4aea89bda426c14c0bca.json",
+					"name" : "wv-mv-video-capture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-onnx-inferring::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-onnx-inferring-Debug-1cebfdcdcb0f56e629f0.json",
+					"name" : "wv-onnx-inferring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-uart-serial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-uart-serial-Debug-a89c1053655bc9c65e7c.json",
+					"name" : "wv-uart-serial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wv-video-record::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wv-video-record-Debug-7610877bd9759843c9c9.json",
+					"name" : "wv-video-record",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ma/workspace/gitspace/backup/WolfVision/build",
+		"source" : "/home/ma/workspace/gitspace/backup/WolfVision"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,16 @@
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-basic-roi.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-onnx-inferring.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-video-record.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-basic-kalman.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/WolfVision.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-fan-armor.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/edit_cache.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-basic-armor.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-basic-buff.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-basic-pnp.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/rebuild_cache.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-uart-serial.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/CMakeFiles/wv-mv-video-capture.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/3rdparty/fmt/CMakeFiles/edit_cache.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/3rdparty/fmt/CMakeFiles/rebuild_cache.dir
+/home/ma/workspace/gitspace/backup/WolfVision/build/3rdparty/fmt/CMakeFiles/fmt.dir
