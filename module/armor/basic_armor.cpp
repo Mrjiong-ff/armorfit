@@ -172,7 +172,7 @@ bool Detector::findLight() {
 bool Detector::runBasicArmor(const cv::Mat&           _src_img,
                              const uart::Receive_Data _receive_data) {
   // 预处理
-  runImage(_src_img, _receive_data.my_color);
+  runImage(_src_img, /*_receive_data.my_color*/2);
   draw_img_ = _src_img.clone();
   if (findLight()) {
     if (fittingArmor()) {
@@ -419,8 +419,8 @@ bool Detector::fittingArmor() {
 
         // 若匹配成功之前有跳过的灯条，则从跳过灯条开始继续匹配
         if (is_include_armor) {
-          ra               = include_armor_index;
-          is_include_armor = false;
+          include_armor_index  = ra;
+          is_include_armor     = false;
         }
 
         la = ra - 1;
